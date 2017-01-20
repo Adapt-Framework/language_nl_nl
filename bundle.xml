@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adapt_framework>
+    <bundle>
+        <name>language_nl_nl</name>
+        <label>Dutch (NL)</label>
+        <type>language</type>
+        <version>1.0.0</version>
+        <namespace>\adapt\language\nl_nl</namespace>
+        <version_status>release</version_status>
+        <availability>public</availability>
+        <description>Provides support for Dutch (NL).</description>
+        <copyright>2017 Matt Bruton</copyright>
+        <license>MIT</license>
+        <vendor>
+            <name>Adapt Framework</name>
+            <website>http://www.adaptframework.com/documentaion/bundles/language_nl_nl</website>
+        </vendor>
+        <depends_on>
+            <bundle>
+                <name>adapt</name>
+                <version>2.0</version>
+            </bundle>
+            <bundle>
+                <name>language</name>
+                <version>1.0</version>
+            </bundle>
+        </depends_on>
+        <schema>
+            <add>
+                <table name="language">
+                    <record>
+                        <name>nl_nl</name>
+                        <language_code>nl-NL</language_code>
+                        <label>Nederlands (NL)</label>
+                    </record>
+                </table>
+            </add>
+        </schema>
+        <settings>
+            <category name="Default language">
+                <setting>
+                    <name>language.default</name>
+                    <label>Default language</label>
+                    <default_value>nl_nl</default_value>
+                </setting>
+            </category>
+        </settings>
+    </bundle>
+</adapt_framework>
