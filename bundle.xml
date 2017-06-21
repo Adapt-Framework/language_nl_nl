@@ -4,7 +4,7 @@
         <name>language_nl_nl</name>
         <label>Dutch (NL)</label>
         <type>language</type>
-        <version>1.0.0</version>
+        <version>0.7.0</version>
         <namespace>\adapt\language\nl_nl</namespace>
         <version_status>release</version_status>
         <availability>public</availability>
@@ -22,7 +22,7 @@
             </bundle>
             <bundle>
                 <name>language</name>
-                <version>1.0</version>
+                <version>0.7</version>
             </bundle>
         </depends_on>
         <schema>
